@@ -1,43 +1,41 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Miron Suarez",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://github.com/mironsuarez.png",
+    "email": "msuarez6@hawaii.edu",
+    "phone": "808-390-8353",
+    "website": "https://mironsuarez.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2027.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mironsuarez", "url": "http://github.com/mironsuarez" },
+      { "network": "linkedin", "username": "mironsuarez", "url": "http://linkedin.com/in/mironsuarez" },
+      { "network": "twitter", "username": "", "url": "http://twitter.com/changeme" },
+      { "network": "instagram", "username": "", "url": "http://instagram.com/changeme" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Cyber Security" },
+    { "name": "Software Engineering" },
+    { "name": "Economics" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Typescript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "WindowsOS", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-09-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -45,27 +43,31 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Hawaii Air National Gaurd",
+      "position": "KC-135R Dedicated Crew Chief",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-08-05",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Inspecting, servicing, troubleshooting, and ensuring the overall readiness and safety of the aircraft on the ground before, during, and after missions",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Ensure compliance with technical orders, safety regulations, and mission requirements",
+        "Lead, train, and mentor junior airmen in aircraft maintenance procedures",
+        "Document, track, and report aircraft status using official maintenance systems",
+        "Collaborate with pilots, maintenance teams, and support personnel to ensure mission success"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "United Staes Air Force",
+      "position": "KC-46A Crew Chief",
+      "website": "",
+      "startDate": "2019-08-06",
+      "endDate": "2023-08-05",
+      "summary": "Conducts detailed inspections, coordinating with specialists, Running operational checks to maintain operational safety, reliability, and mission readiness.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Inspect and service engines, hydraulics, fuel, and environmental systems for safe operation",
+        "Perform detailed checks of flight controls, landing gear, and avionics systems",
+        "Identify, troubleshoot, and coordinate corrective actions for maintenance discrepancies",
+        "Service and replenish consumables including oil, hydraulic fluid, oxygen, and nitrogen"
       ]
     }
   ],
