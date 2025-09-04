@@ -6,12 +6,12 @@ title: "Making something out of nothing"
 date: 2025-09-04
 published: true
 labels:
-  - Cybersecurity - Creating - Software Engineering
+  - Cybersecurity, - Creating, - Software Engineering
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*“The desire to create is one of the deepest yearnings of the human soul.” — Dieter F. Uchtdorf*
 
 My interest in software engineering comes from the ability to create. Being able to take a thought and realize it into something not only tangible but useful is what excites me about software engineering. From a young age I’ve always loved to create whether it was building something physical, making short films, or capturing moments in time. My innate interest in creating is what brings me to my newest form of creation, software development.
 
