@@ -6,10 +6,11 @@ title: "Making something out of nothing"
 date: 2025-09-04
 published: true
 labels:
-  - Cybersecurity, - Creating, - Software Engineering
+  - Cybersecurity
+  - Creating
+  - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 *“The desire to create is one of the deepest yearnings of the human soul.” — Dieter F. Uchtdorf*
 
