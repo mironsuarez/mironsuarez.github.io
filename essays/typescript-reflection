@@ -1,0 +1,18 @@
+---
+layout: essay
+type: essay
+title: "Making something out of nothing"
+# All dates must be YYYY-MM-DD format!
+date: 2025-09-04
+published: false
+labels:
+  - Javascript
+  - Typescript
+  - Reflection
+---
+
+
+*“The desire to create is one of the deepest yearnings of the human soul.” — Dieter F. Uchtdorf*
+
+TypeScript so far is enjoyable, and hopefully it stays that way. It also feels very familiar as it closely resembles Java, which was the first programming language that I learned. Although it is a bit tedious and perhaps even annoying due to the fact that you have to define the type for everything (though you could offload this work to AI), keeping track of this and having the correct syntax/format slows me down and makes me pay more attention to the details—which is good if the focus is not speed. I’m excited to keep expanding and progressing in my knowledge and skills in this new programming language that I am learning. Also, I’m happy that I am adding another tool to my bucket of tools of different technologies that I can use at my disposal.
+
