@@ -11,8 +11,6 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
 ## How to ask Questions 
 
 Asking a question seems simple, we’ve been asking questions our entire lives. But to really get help with whatever you are asking it’s better to ask a question the smart way especially when it comes to questions on software engineering. I am going to show two examples of questions taken from stack overflow. One is an example of what a smart question is and how we should be asking questions as developers. The other is a not so smart question and showcases what not to do when stuck.
