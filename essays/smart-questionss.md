@@ -17,7 +17,7 @@ Asking a question seems simple, we’ve been asking questions our entire lives. 
 
 ## The Smart Question
 
-The smart question is a question that is clear, simple to udersatnad and gets straight to the point. In this question the user was asking how to delet a Git branch locally and remotely. They also went on to provide their failed attepts at deleting a remote branch. You can see the question here https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
+The smart question is a question that is clear, simple to udersatnad and gets straight to the point. In this question the user was asking how to delet a Git branch locally and remotely. They also went on to provide their failed attepts at deleting a remote branch. You can see the smart question [here](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely).
 
 
 <img width = "500px" src ="../img/smart1.png">
