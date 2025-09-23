@@ -10,10 +10,17 @@ labels:
   - ESLint
   - Typescript
 ---
-<img src ="../img/code-standard-reflection/item-unlocked.png" alt="ESLint Card item unlocked" style ="float: left; margin: 10px; width: 250px;" />
+<img src ="../img/code-standard-reflection/item-unlockedv2.png" alt="ESLint Card item unlocked" style ="float: left; margin: 10px; width: 250px;" />
 
-Coding stanndards, love them or hate them they are a must! Coding standards are a set of rules, guidlines and best practices that developers use when writing code. While it can be very annyoying and teidus to abiad by coding standards it is important to do so. These set of rule ensure consiittency, readabilit, and realiablity. All which are crusial to having a well devloped product. Coding standards are very much like grammar and punctuatuion rule in writing, as you can imaging without those two things it would make understanding what some one might write difficult to understand. There are also differnt style guides/rule sets for example for Javascript there is the popular Airbnb Javascript style guide and for python they have PEP 8 style guide. These guides are akin to what guides are followed when writing an essay using MLA or APA styles. 
+## What are Coding Standards?
 
-An extremely helpful tool to keep us in check is ESLint. ESlint is a static code analysis tool, meaning it checks the code before execution. This tool helps us catch errors as we are writing code, it also enforces consistency and promotes best practices. ESLint works by parsing the code into an abstract tree and then appling rules that are custimazable. ESLint reporst the issues with line numbersfor the location of the issue and the explination of the issue, providing insight on how you might fix it. A great feature of ESlint is the "eslint-fix" command, this commad can sometime auto fix many issues saving you time and effort. 
+Coding standards, love them or hate them, they are a must! Coding standards are a set of rules, guidelines, and best practices that developers use when writing code. While it can be very annoying and tedious to abide by coding standards, it is important to do so. These sets of rules ensure consistency, readability, and reliability. All of which are crucial to having a well-developed product.
+Coding standards are very much like grammar and punctuation rules in writing. As you can imagine, without those two things, it would be difficult to understand what someone has written. There are also different style guides and rule sets. For example, in JavaScript, there is the popular Airbnb JavaScript Style Guide, and in Python, there is the PEP 8 Style Guide. These guides are akin to the conventions followed when writing an essay using MLA or APA styles. 
 
-My experience with ESLint so far has been 
+## What is ESLint?
+
+An extremely helpful tool to keep us in check is ESLint. ESLint is a static code analysis tool, meaning it checks the code before execution. This tool helps us catch errors as we write code, while also enforcing consistency and promoting best practices. ESLint works by parsing the code into an abstract syntax tree and then applying rules that are customizable. It reports issues with line numbers for the location of the problem along with an explanation, providing insight into how you might fix it. A great feature of ESLint is the "eslint-fix" command, which can often automatically correct many issues, saving you time and effort.
+
+## My Thoughts
+
+My experience with ESLint so far has been ovarall okay... It is getting some getting used too, althouigh I havent worked with it too much. 
