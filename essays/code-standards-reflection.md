@@ -23,4 +23,4 @@ An extremely helpful tool to keep us in check is ESLint. ESLint is a static code
 
 ## My Thoughts
 
-My experience with ESLint so far has been ovarall okay... It is getting some getting used too, althouigh I havent worked with it too much. 
+My experience with ESLint so far has been ovarall okay... It is getting some getting used too, althouigh I havent worked with it too much. In my short time with ESLint it has caused me many problems, most of which are probably my own doing. For some reason it was giving me errors and not letting me fix them with things like useing double qoutes vs single qoutes, autmoatically reverting back to double qoutes ehrn i tried to save. I did get that fixed but I had other issues of the same nature that i had to try and work around/fix. Longterm as i get more comfterbal and contempt with this tool i see it being less anoying and actuly heelpful, im looking foward to then.
