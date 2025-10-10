@@ -85,3 +85,28 @@ a {
     max-width: 250px;
   }
 }
+
+/* Side-by-side helper: places images (or other elements) next to each other
+   with an even split. On small screens the items stack. */
+.side-by-side {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.side-by-side img {
+  width: 48%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+}
+@media (max-width: 800px) {
+  .side-by-side {
+    flex-direction: column;
+  }
+  .side-by-side img {
+    width: 80%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
