@@ -10,7 +10,7 @@ labels:
   - Bootstrap
   - HTML/CSS
 ---
-<img src="../img/framework.jpg" class="center-img" alt="UI framework illustration">
+
 
 ## UI Frameworks
 While we can do a lot with HTML and CSS, a UI framework introduces a new level of efficiency and productivity. UI frameworks give developers pre-designed layouts, reusable components, and responsive design tools. This means we don’t have to build a button from scratch every time we need to implement one. It also saves a significant amount of time since we don’t have to write specific code for webpages that might be viewed on devices other than a computer, such as tablets or phones. The responsive aspect of frameworks makes it easy to account for users on different devices and even different web browsers.
