@@ -2,7 +2,7 @@ layout: essay
 type: essay
 title: "Pull yourself up by your Bootstrap"
 # All dates must be YYYY-MM-DD format!
-date: 2025-09-23
+date: 2025-10-10
 published: true
 labels:
   - Codind Standards
