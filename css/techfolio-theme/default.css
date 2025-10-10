@@ -95,18 +95,18 @@ a {
   justify-content: center;
 }
 .side-by-side img {
-  width: 48%;
-  max-width: 480px;
+  width: 10%;
+  max-width: 360px;
   height: auto;
   display: block;
 }
-@media (max-width: 800px) {
+@media (max-width: 100px) {
   .side-by-side {
     flex-direction: column;
   }
   .side-by-side img {
-    width: 80%;
-    max-width: 360px;
+    width: 10%;
+    max-width: 480px;
     margin: 0 auto;
   }
 }
