@@ -24,6 +24,6 @@ Bootstrap is one of the most popular frameworks that is used today. It was origg
 I enjoy learning and using bootstrap, it is always frustrating learning a new thing. But with bootstrap id say its pretty user friendly and not dificult to pick up. Its a really cool tool to learn and very inpresive with how versitle it can be. I also think it makes createing a webpage so much faster than just trying to use HTML and CSS by it self and defenitly way more way less complex. Bellow are two examples of different webpages created with Bootstrap. You can see how different they are and how unique you can make your own webpage.
 
 <div class="side-by-side">
-  <img src="../img/adminlte-ex.jpg" alt="AdminLTE example site">
-  <img src="../img/trainerize-ex.png" alt="Trainerize example site">
+  <img src="../img/adminlte-ex.jpg" alt="AdminLTE example site" width="200px">
+  <img src="../img/trainerize-ex.png" alt="Trainerize example site" width="200px">
 </div>
