@@ -18,10 +18,10 @@ While we can do a ton with HTML and css, a UI framework introduces a new level o
 ## Bootstrap
 Bootstrap is one of the most popular frameworks that is used today. It was origgionally created by twitter then later realesd as an open source prohject on GitHub. It quckily became popular becase of the simplicity it offered with its responsivness. One of its most powerful features is its grid system that automatically adust based on the device a user is using. Bellow is an example of how it works, you can find more information at the bootstrap website.
 
-<img src="../img/grid-example.png" class="center-img" alt="Bootstrap grid example">
+<img src="../img/grid-example.PNG" class="center-img" alt="Bootstrap grid example">
 
 ## My Thoughts
 I enjoy learning and using bootstrap, it is always frustrating learning a new thing. But with bootstrap id say its pretty user friendly and not dificult to pick up. Its a really cool tool to learn and very inpresive with how versitle it can be. I also think it makes createing a webpage so much faster than just trying to use HTML and CSS by it self and defenitly way more way less complex. Bellow are two examples of different webpages created with Bootstrap. You can see how different they are and how unique you can make your own webpage.
 
-<img src="../img/adminlte-ex.png" class="center-img">
-<img src="../img/trainerize-ex.png" class="center-img">
+<img src="../img/adminlte-ex.jpg" class="center-img" alt="AdminLTE example site">
+<img src="../img/trainerize-ex.png" class="center-img" alt="Trainerize example site">
