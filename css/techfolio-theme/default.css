@@ -48,3 +48,40 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+/* Centered image helper: use when you want an image centered and responsive
+   inside content. */
+.center-img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Keep existing float helpers (from earlier change) so both patterns are available. */
+.float-left-img,
+.float-right-img {
+  max-width: 40%;
+  width: 250px; /* ideal width, can be overridden */
+  height: auto;
+  margin: 0 1rem 1rem 0; /* space between image and text */
+}
+.float-right-img {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+.float-left-img {
+  float: left;
+}
+
+@media (max-width: 700px) {
+  .float-left-img,
+  .float-right-img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 50%;
+    max-width: 250px;
+  }
+}
