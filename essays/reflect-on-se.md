@@ -4,7 +4,7 @@ type: essay
 title: "Reflection on Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-12-15
-published: true
+published: false
 labels:
   - Configuration Management
   - Coding Standards
@@ -13,17 +13,17 @@ labels:
 
 # Reflecting on Software Engineering
 
-As I near the completion of ICS 314, I have come to realize that this course was not simply about learning how to build web applications, but about understanding **software engineering as a discipline**. While web development was the medium through which many assignments were delivered, the deeper goal was to expose students to core software engineering principles that apply across many domains and technologies. Through this course, my view of software development has become more **structured, collaborative, and process-oriented**. In this essay, I will reflect on three fundamental concepts I learned—**Configuration Management**, **Agile Project Management**, and **Coding Standards**—and discuss how they extend far beyond web application development.
+As I near the completion of ICS 314, I have come to realize that this course was not simply about learning how to build web applications, but about understanding software engineering as a discipline. While web development was the medium through which many assignments were delivered, the deeper goal was to expose students to core software engineering principles that apply across many domains and technologies. Through this course, my view of software development has become more structured, collaborative, and process-oriented. In this essay, I will reflect on three fundamental concepts I learned—Configuration Management, Agile Project Management, and Coding Standards and discuss how they extend far beyond web application development.
 
 ---
 
 ## Configuration Management
 
-Before taking ICS 314, I had little to no understanding of what *configuration management* actually meant. I initially thought it referred simply to how a project was set up, such as folders, files, or environment variables. Through this course, I learned that configuration management is much broader. It involves **identifying, tracking, and controlling how a project evolves over time**, including code changes, dependencies, environments, and versions, so that the software remains maintainable and predictable.
+Before taking ICS 314, I had little to no understanding of what *configuration management* actually meant. I initially thought it referred simply to how a project was set up, such as folders, files, or environment variables. Through this course, I learned that configuration management is much broader. It involves identifying, tracking, and controlling how a project evolves over time, including code changes, dependencies, environments, and versions, so that the software remains maintainable and predictable.
 
-ICS 314 taught me configuration management primarily through hands-on experience using tools like **Git and GitHub**. Managing branches, commits, pull requests, and resolving merge conflicts showed me how important it is to track changes systematically. These practices made collaboration smoother and reduced the risk of breaking the project as it grew.
+ICS 314 taught me configuration management primarily through hands-on experience using tools like Git and GitHub. Managing branches, commits, pull requests, and resolving merge conflicts showed me how important it is to track changes systematically. These practices made collaboration smoother and reduced the risk of breaking the project as it grew.
 
-Configuration management is not limited to web applications. Any type of software—whether it is a mobile app, enterprise system, or embedded software—benefits from having a solid process for managing changes. I can clearly see myself applying configuration management principles in future projects, as having a reliable system for tracking progress and changes makes development more efficient and less error-prone.
+Configuration management is not limited to web applications. Any type of software whether it is a mobile app, enterprise system, or embedded software benefits from having a solid process for managing changes. I can clearly see myself applying configuration management principles in future projects, as having a reliable system for tracking progress and changes makes development more efficient and less error-prone.
 
 ---
 
