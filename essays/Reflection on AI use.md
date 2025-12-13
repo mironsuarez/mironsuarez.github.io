@@ -166,4 +166,4 @@ Overall, AI played a meaningful role in my experience in ICS 314. When used resp
 
 **AI is best used as an extension of the mind, not as a replacement for thinking.**
 
-*Disclaimer: AI was used to help me write this effort estimation essay.*
+*Disclaimer: AI was used to help me write this Relection.*
