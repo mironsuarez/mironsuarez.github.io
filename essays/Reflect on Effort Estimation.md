@@ -60,5 +60,6 @@ If I were to repeat this project, I would change several aspects of my estimatio
 ## Conclusion
 While my effort estimates for *Club Oven Lovin’* were imperfect, the process of estimating and tracking effort provided meaningful structure, awareness, and reflection. Estimation helped manage scope and priorities, while tracking revealed patterns in how time was actually spent. Combined with selective and responsible use of AI tools for problem-solving support, this experience highlighted clear improvements I can make in future projects—particularly in task granularity and tracking consistency.
 
+---
 
 *Disclaimer: AI was used to help me write this effort estimation essay.*
