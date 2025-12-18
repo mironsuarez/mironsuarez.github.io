@@ -13,7 +13,7 @@ labels:
 summary: "A minimalist time tracker where I spin up multiple timers, categorize activities, and audit how I really spend my week."
 ---
 
-<img class="img-fluid rounded shadow mb-4 w-100" src="../img/projects/timmer/image.png" alt="Screenshot from the timer app">
+<img class="img-fluid rounded shadow mb-4 w-100" src="../img/projects/timer/image.png" alt="Screenshot from the timer app">
 
 Time Tracker grew out of my need to understand where my evenings were going. Already built apps felt too rigid and often require payment or subscription. So I built a multi-timer workspace that lets me track context switches without losing history.
 
