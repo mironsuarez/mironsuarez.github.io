@@ -13,7 +13,7 @@ labels:
 summary: "A role-based cooking platform that helps students discover budget-friendly recipes, links them to local vendors, and gives admins tools to curate the community."
 ---
 
-<img class="img-fluid rounded shadow" src="../img/projects/clubovinlovin/image.png" alt="Screenshot from the Club Oven Lovin app">
+<img class="img-fluid rounded shadow mb-4 w-100" src="../img/projects/clubovinlovin/image.png" alt="Screenshot from the Club Oven Lovin app">
 
 ## What we built
 - **Landing story + quick metrics.** A warm hero with an image slider introduces the club, while the Quick Stats panel logs visits and shows live counts of recipes, users, and total page views using Prisma. 
