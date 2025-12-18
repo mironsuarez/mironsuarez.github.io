@@ -1,0 +1,218 @@
+/* Midnight Nebula Theme: dark, space-inspired styling for the portfolio. */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --space-bg: #020617;
+  --space-bg-alt: #090f2b;
+  --space-card: rgba(7, 11, 32, 0.9);
+  --space-border: rgba(120, 142, 255, 0.35);
+  --space-highlight: #b39aff;
+  --space-highlight-2: #3efad6;
+  --space-text: #f2f5ff;
+  --space-muted: #9da7c8;
+  --bs-font-sans-serif: "Inter", "Space Grotesk", sans-serif;
+  --bs-link-color: var(--space-highlight);
+  --tf-pill-bg: rgba(62, 250, 214, 0.17);
+  --tf-icon-fill: var(--space-highlight);
+  --tf-icon-hover: var(--space-highlight-2);
+  --tf-page-bg-color: rgba(5, 9, 28, 0.9);
+  --tf-projects-bg-color: rgba(6, 9, 30, 0.95);
+  --tf-footer-bg-color: rgba(3, 5, 18, 0.92);
+  --tf-essay-bg: rgba(7, 10, 32, 0.92);
+}
+
+body {
+  background-color: var(--space-bg);
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(128, 94, 255, 0.18), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(48, 202, 255, 0.15), transparent 55%),
+    linear-gradient(120deg, #01030d 0%, #050b1d 45%, #030714 100%);
+  color: var(--space-text);
+  font-family: var(--bs-font-sans-serif);
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 25px 25px, rgba(255, 255, 255, 0.45), transparent 50%),
+    radial-gradient(1.5px 1.5px at 200px 150px, rgba(255, 255, 255, 0.35), transparent 50%),
+    radial-gradient(2px 2px at 350px 75px, rgba(80, 181, 255, 0.45), transparent 50%);
+  background-size: 400px 400px, 500px 500px, 300px 300px;
+  opacity: 0.45;
+  z-index: -1;
+  animation: drift 120s linear infinite;
+}
+
+@keyframes drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-200px, -150px, 0);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--space-text);
+}
+
+p,
+.lead,
+.card-text,
+li {
+  color: var(--space-text);
+}
+
+.text-muted {
+  color: var(--space-muted) !important;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+a {
+  color: var(--space-highlight);
+  text-decoration: none;
+  transition: color 0.2s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: var(--space-highlight-2);
+  text-shadow: 0 0 12px rgba(62, 250, 214, 0.35);
+}
+
+.bg-gradient {
+  background-image: none !important;
+}
+
+.tf-nav {
+  background: rgba(4, 7, 20, 0.85) !important;
+  border: 1px solid var(--space-border);
+  box-shadow: 0 10px 30px rgba(2, 0, 28, 0.55);
+  backdrop-filter: blur(14px);
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: var(--space-text) !important;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.navbar .nav-link:hover {
+  color: var(--space-highlight-2) !important;
+}
+
+.navbar {
+  border-radius: 18px;
+  margin: 1.25rem auto;
+  width: min(1100px, 96%);
+  padding: 0.25rem 1.25rem;
+}
+
+footer.navbar {
+  margin-top: 3rem;
+  border-radius: 20px 20px 0 0;
+  border-top: 1px solid var(--space-border);
+}
+
+#projects,
+#essays,
+#about-section {
+  border: 1px solid var(--space-border);
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(3, 6, 30, 0.7);
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: var(--space-card);
+  border: 1px solid var(--space-border);
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(2, 3, 19, 0.55);
+  color: var(--space-text);
+}
+
+.card img {
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  object-fit: cover;
+}
+
+.badge.rounded-pill {
+  color: var(--space-highlight-2);
+  border: 1px solid rgba(62, 250, 214, 0.35);
+}
+
+.btn,
+.btn-outline-dark {
+  border-radius: 999px;
+  padding: 0.35rem 1.4rem;
+  border: 1px solid var(--space-highlight);
+  color: var(--space-text);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  background: transparent;
+}
+
+.btn:hover,
+.btn-outline-dark:hover {
+  background: linear-gradient(120deg, var(--space-highlight) 0%, var(--space-highlight-2) 100%);
+  color: #05050f;
+  border-color: transparent;
+}
+
+img.rounded-circle {
+  border: 3px solid var(--space-border);
+  box-shadow: 0 10px 35px rgba(7, 8, 19, 0.8);
+}
+
+.tf-social {
+  fill: var(--space-highlight);
+}
+
+.tf-social:hover {
+  fill: var(--space-highlight-2);
+  transform: translateY(-2px);
+}
+
+.small,
+small {
+  color: var(--space-muted);
+}
+
+pre,
+code {
+  background: rgba(3, 4, 18, 0.8);
+  color: var(--space-highlight-2);
+  border-radius: 10px;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 96%;
+    border-radius: 14px;
+  }
+
+  .card img {
+    border-radius: 18px 18px 0 0;
+  }
+}
