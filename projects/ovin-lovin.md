@@ -39,6 +39,16 @@ summary: "A role-based cooking platform that helps students discover budget-frie
 
 - **UX polish** includes SweetAlert-style toasts, live favorite toggles, and rating widgets to keep contributors engaged while maintaining data integrity through schema validation.
 
+## My contributions
+- Drove the design system work: built the shared component library, responsive layouts, and color tokens that keep student, vendor, and admin views visually consistent.
+- Implemented the recipe CRUD flow end-to-end, including Prisma models, seed data, and the vendor-to-ingredient linking logic that feeds cost breakdowns.
+- Set up CI/CD so every pull request runs lint/tests via GitHub Actions before Vercel deploys, keeping our main branch stable.
+
+## What I learned
+- Balancing three role-based experiences requires crisp permission modeling; Prisma’s schema and NextAuth callbacks now enforce that consistently.
+- Running usability testing alongside schema design prevented expensive rewrites—student interviews led directly to the search filters and dietary flags.
+- Thorough developer docs (env vars, database seeding, deployment steps) dramatically reduced onboarding time for new contributors.
+
 ## Impact
 Together we shipped a fully authenticated community cookbook tailored to UH students, complete with contribution workflows, vendor sourcing, and engagement telemetry. The experience now greets members with personalized tips, curates top-rated dishes, and keeps vendors in sync so students can cook more and spend less.
 
