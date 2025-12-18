@@ -4,7 +4,7 @@ type: essay
 title: "New Tool Unlocked: ESLint"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-23
-published: true
+published: false
 labels:
   - Codind Standards
   - ESLint
