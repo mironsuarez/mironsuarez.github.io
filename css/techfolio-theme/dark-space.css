@@ -160,6 +160,19 @@ footer.navbar {
   gap: 0.65rem;
 }
 
+.tf-social-row-lg {
+  gap: 0.85rem;
+}
+
+.tf-social-row-lg .tf-social-link {
+  padding: 0.4rem 0.85rem;
+}
+
+.tf-social-row-lg .tf-social {
+  height: 1.1em !important;
+  width: 1.1em !important;
+}
+
 .tf-social-link {
   display: inline-flex;
   align-items: center;
