@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/framework.jpg
+image: img/projects/clubovinlovin/image.png
 title: "Ovin Lovin"
 date: 2024-12-01
 published: true
@@ -13,12 +13,7 @@ labels:
 summary: "A role-based cooking platform that helps students discover budget-friendly recipes, links them to local vendors, and gives admins tools to curate the community."
 ---
 
-# Club Oven Lovin' Project Overview
-
-![Toaster oven pizzas on sheet pans](../public/images/hero-toaster-1.jpeg)
-
-## Mission and audience
-Club Oven Lovin' gives college students healthy, budget-friendly meals they can cook with just a toaster oven—no full kitchen required. The landing hero highlights recipes, price breakdowns, and dietary filters tailored to ingredients near the UH campus, with quick links to sign in or browse recipes immediately.
+<img class="img-fluid rounded shadow" src="../img/projects/clubovinlovin/image.png" alt="Screenshot from the Club Oven Lovin app">
 
 ## What we built
 - **Landing story + quick metrics.** A warm hero with an image slider introduces the club, while the Quick Stats panel logs visits and shows live counts of recipes, users, and total page views using Prisma. 
