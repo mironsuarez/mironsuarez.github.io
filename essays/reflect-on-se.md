@@ -3,8 +3,8 @@ layout: essay
 type: essay
 title: "Reflection on Software Engineering"
 # All dates must be YYYY-MM-DD format!
-date: 2025-12-15
-published: false
+date: 2025-12-16
+published: true
 labels:
   - Configuration Management
   - Coding Standards
