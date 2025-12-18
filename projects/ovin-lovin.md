@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/projects/clubovinlovin/image.png
 title: "Club Ovin Lovin"
-date: 2024-12-01
+date: 2025-12-17
 published: true
 labels:
   - Next.js

@@ -31,25 +31,5 @@ Orbit Time Tracker grew out of my need to understand where my evenings were goin
 - **Prisma + SQLite** when offline, with sync to PostgreSQL when I reconnect so I can track time on my phone or laptop seamlessly.
 - **Socket.io** broadcasts timer state between devices to avoid double-counting.
 
-```ts
-// lib/timers.ts
-export function startTimer(timer) {
-  return {
-    ...timer,
-    running: true,
-    startedAt: Date.now(),
-  };
-}
-
-export function stopTimer(timer) {
-  const elapsed = Date.now() - timer.startedAt;
-  return {
-    ...timer,
-    running: false,
-    totalMs: timer.totalMs + elapsed,
-    startedAt: null,
-  };
-}
-```
 
 Simple helpers like these keep the business logic readable while I focus on UX experiments, such as how to display overlapping timers or how to summarize a week without clutter. Orbit is now my go-to ritual check, and it has drastically improved how intentionally I spend my time.

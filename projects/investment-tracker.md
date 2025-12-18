@@ -31,17 +31,5 @@ The Investment Tracker started as a spreadsheet replacement for my brokerage not
 - **Backend:** Supabase/PostgreSQL stores trades, quotes, and tags; CRON edge functions refresh quotes throughout the day.
 - **Auth:** Supabase Auth plus optional passkey sign-in so only I can see my holdings.
 
-```ts
-// utils/costBasis.ts
-export function updateCostBasis(existing, trade) {
-  const totalShares = existing.shares + trade.shares;
-  const totalCost = existing.cost + trade.shares * trade.price + trade.fee;
-  return {
-    shares: totalShares,
-    cost: totalCost,
-    avgPrice: totalCost / totalShares,
-  };
-}
-```
 
 This cost-basis helper keeps the UI snappy; the recalculation runs locally right after submission so I get instant feedback while Supabase writes the trade asynchronously.
