@@ -182,8 +182,9 @@ img.rounded-circle {
 
 .tf-social {
   fill: var(--space-highlight);
-  height: 0.95em;
-  width: 0.95em;
+  height: 0.95em !important;
+  width: 0.95em !important;
+  display: inline-block;
   margin: 0 0.15rem;
   transition: transform 0.2s ease, fill 0.2s ease;
 }
