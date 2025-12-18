@@ -4,7 +4,7 @@ type: essay
 title: "Coding Under Pressure: Why WODs Keep Me on My Toes"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-04
-published: true
+published: false
 labels:
   - Javascript
   - Typescript

@@ -4,7 +4,7 @@ type: essay
 title: "Making something out of nothing"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-04
-published: true
+published: false
 labels:
   - Cybersecurity
   - Creating
