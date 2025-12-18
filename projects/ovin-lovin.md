@@ -3,40 +3,62 @@ layout: project
 type: project
 image: img/framework.jpg
 title: "Ovin Lovin"
-date: 2025-12-17
+date: 2024-12-01
 published: true
 labels:
-  - Web Development
-  - JavaScript
-  - Leadership
-summary: "Documenting how I led Club Ovin Lovin in building a full-stack hub for announcements, resources, and member engagement."
+  - Next.js
+  - Prisma
+  - PostgreSQL
+  - UX Design
+summary: "A role-based cooking platform that helps students discover budget-friendly recipes, links them to local vendors, and gives admins tools to curate the community."
 ---
 
 <img class="img-fluid" src="../img/framework.jpg" alt="Screenshot from the Ovin Lovin portal">
 
-Club Ovin Lovin started as a handful of us who wanted to keep project updates, study guides, and workshop notes in one place. I volunteered to build the platform that would glue the club together, so I designed and shipped a web application that feels more like a digital clubhouse than a static site. I took the lead on specifying the information architecture, interviewing members about their pain points, and translating those insights into a clean dashboard for announcements, archives, and live links.
+Club Ovin Lovin’ is a web platform my team designed for students who need affordable, realistic meal ideas. The app connects three communities—students, local food vendors, and site admins—so recipes always list cost-conscious ingredients, where to buy them near campus, and dietary context. We document the project publicly at <a href="https://club-oven-lovin.github.io/">club-oven-lovin.github.io</a>, ship releases through Vercel, and keep quality signals visible with GitHub Actions CI badges.
 
-### Highlights
+### What the app delivers
 
-- Built a responsive component library so our event recaps, slides, and recordings render beautifully on phones, tablets, and the lab’s projector.
-- Implemented role-based authentication, giving officers a secure authoring experience while every member still sees the latest content instantly.
-- Automated the “join the club” process with a self-serve onboarding form that pipes data straight into our roster spreadsheet and mailing list.
-- Embedded micro-interactions (like real-time RSVP counts and link previews) that make it obvious when a resource was updated or a meeting is live.
+- **Student experience:** Personalized dashboards highlight budget-friendly meals, onboarding guidance, and buttons to browse, search, or add recipes. Each recipe tracks prep time, servings, ingredient lists, and dietary badges and accepts reviews plus star ratings.
+- **Vendor workspace:** Store owners manage their location, hours, and per-item pricing, then attach those ingredients to recipes so students can plan exactly where to shop and how much it will cost.
+- **Admin tooling:** Admins review submissions, promote users into vendor roles, and prune inaccurate content with full visibility into accounts, ingredients, and recipe queues.
+- **Discovery superpowers:** Search and filtering blend name, tags, ingredients, and dietary restrictions, making it easy to jump from “I only have tofu + pasta” to a handful of realistic options.
 
-To keep the codebase maintainable, I split the app into API, data, and presentation layers. The snippet below shows how I wired up the event service so that the same endpoint powers the dashboard and the public agenda widget:
+### Technical highlights
 
-```js
-// services/events.js
-export async function listEvents({ limit = 10 } = {}) {
-  const response = await fetch(`/api/events?limit=${limit}`);
-  if (!response.ok) throw new Error('Unable to load events');
-  const items = await response.json();
-  return items.map((event) => ({
-    ...event,
-    start: new Date(event.start),
-    end: new Date(event.end),
-  }));
+- Built with Next.js 14 (App Router) and a shared component system so the landing page, dashboards, and forms stay consistent on phones, tablets, and lab projectors.
+- Role-based access uses NextAuth, giving us distinct student, vendor, and admin flows while keeping session handling centralized.
+- Prisma models a PostgreSQL database that stores recipes, ingredients, vendor inventories, dietary flags, and review metadata. Seed scripts keep demo data fresh for usability tests.
+- CI/CD uses GitHub Actions to lint, test, and deploy to Vercel on every pull request, so the status badge on the landing page reflects our production readiness.
+
+```ts
+// app/(services)/recipes/search.ts
+import { prisma } from '@/lib/prisma';
+
+export async function searchRecipes({
+  query = '',
+  tags = [],
+  dietary = [],
+}: {
+  query?: string;
+  tags?: string[];
+  dietary?: string[];
+}) {
+  return prisma.recipe.findMany({
+    where: {
+      name: { contains: query, mode: 'insensitive' },
+      tags: { hasEvery: tags },
+      dietaryFlags: { hasEvery: dietary },
+    },
+    include: {
+      ingredients: {
+        include: { vendorMatches: true },
+      },
+      reviews: true,
+    },
+    orderBy: { updatedAt: 'desc' },
+  });
 }
 ```
 
-This project taught me how to be both the product owner and the engineer. I iterated quickly with feedback from each meeting, wrote the documentation that helped hand off maintenance, and mentored two new members by pairing on pull requests. Club Ovin Lovin now runs every workshop, fundraiser, and community update through the app, so the club’s energy lives online even when we’re not sharing the same lab space.
+This service mirrors the experience we promise on the landing page: a single query hydrates the student search results, surfaces dietary badges, and injects vendor availability so the cost of each recipe is transparent. Together with a thorough developer guide (covering environment variables, Prisma migrations, and repository structure), it helps new contributors ramp up quickly and keep Club Ovin Lovin’ growing.
