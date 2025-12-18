@@ -20,11 +20,6 @@ summary: "A role-based cooking platform that helps students discover budget-frie
 ## Mission and audience
 Club Oven Lovin' gives college students healthy, budget-friendly meals they can cook with just a toaster oven—no full kitchen required. The landing hero highlights recipes, price breakdowns, and dietary filters tailored to ingredients near the UH campus, with quick links to sign in or browse recipes immediately.
 
-### Why the hero and stats matter
-The hero section is a warm, orange-and-cream welcome that spells out the value proposition and gives students two clear calls to action: sign in to start cooking or jump straight into browsing recipes. It pairs short copy with an image slider of toaster-oven meals to set expectations and showcase achievable dishes.
-
-Right below, Quick Stats runs server-side to log visits and display live counts of recipes, users, and total page views pulled from Prisma, reinforcing momentum and community activity without blocking page renders if telemetry fails. 
-
 ## What we built
 - **Landing story + quick metrics.** A warm hero with an image slider introduces the club, while the Quick Stats panel logs visits and shows live counts of recipes, users, and total page views using Prisma. 
 
