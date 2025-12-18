@@ -12,22 +12,25 @@ layout: home
       </div>
     </div>
 
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col">
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
+        <div class="d-flex justify-content-center flex-wrap tf-social-row mb-3">
+          {% if site.data.bio.basics.website %}
+            {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
+            {% include about/social.html url=url name='house' %}
+          {% endif %}
 
-        {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
+          {% if site.data.bio.basics.email %}
+            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+            {% include about/social.html url=url name='envelope' %}
+          {% endif %}
 
-        {% for profile in site.data.bio.basics.profiles %}
-          {% capture url %}{{ profile.url }}{% endcapture %}
-          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-          {% capture label %}{{ profile.username }}{% endcapture %}
-          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
-        {% endfor %}
+          {% for profile in site.data.bio.basics.profiles %}
+            {% capture url %}{{ profile.url }}{% endcapture %}
+            {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+            {% include about/social.html url=url name=name %}
+          {% endfor %}
+        </div>
       </div>
       <div class="col">
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
