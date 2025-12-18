@@ -42,5 +42,7 @@ summary: "A role-based cooking platform that helps students discover budget-frie
 ## Impact
 Together we shipped a fully authenticated community cookbook tailored to UH students, complete with contribution workflows, vendor sourcing, and engagement telemetry. The experience now greets members with personalized tips, curates top-rated dishes, and keeps vendors in sync so students can cook more and spend less.
 
+---
+
 <p>Learn more at <a href="https://club-oven-lovin.github.io/">club-oven-lovin.github.io</a>.</p>
 <p>See website at <a href="https://club-oven-lovin.vercel.app//">club-oven-lovin.vercel.app/</a>.</p>
