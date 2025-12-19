@@ -13,7 +13,7 @@ labels:
 summary: "A portfolio cockpit where I log every buy, compute blended cost basis automatically, and watch real-time P&L across accounts."
 ---
 
-<img class="img-fluid rounded shadow mb-4" src="../img/trainerize-ex.png" alt="Investment Tracker dashboard">
+<img class="img-fluid rounded shadow mb-4 w-100" src="../img/projects/tradetracker/image.png" alt="Screenshot from the trade tracker app">
 
 The Investment Tracker started as a spreadsheet replacement for my brokerage notes and turned into a full-stack web dashboard. I wanted one place to record every buy, the number of shares, fees, and the venue so I could see average cost per symbol instantly. I also built in profit-and-loss calculations that pull the latest prices to show true standing..
 
