@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/trainerize-ex.png
+image: img/projects/tradetracker/image.png
 title: "Investment Tracker"
 date: 2024-06-01
 published: true
