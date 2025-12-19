@@ -168,4 +168,4 @@ Overall, AI played a meaningful role in my experience in ICS 314. When used resp
 
 ---
 
-*Disclaimer: AI was used to help me write this Relection.*
+*Disclaimer: AI was used to help me write this Reflection.*

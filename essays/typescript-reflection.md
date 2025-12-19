@@ -6,8 +6,8 @@ title: "Coding Under Pressure: Why WODs Keep Me on My Toes"
 date: 2025-09-04
 published: false
 labels:
-  - Javascript
-  - Typescript
+  - JavaScript
+  - TypeScript
   - Reflection
 ---
 

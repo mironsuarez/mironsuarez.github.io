@@ -6,9 +6,9 @@ title: "New Tool Unlocked: ESLint"
 date: 2025-09-23
 published: false
 labels:
-  - Codind Standards
+  - Coding Standards
   - ESLint
-  - Typescript
+  - TypeScript
 ---
 <img src ="../img/code-standard-reflection/item-unlockedv2.png" alt="ESLint Card item unlocked" style ="float: left; margin: 10px; width: 250px;" />
 

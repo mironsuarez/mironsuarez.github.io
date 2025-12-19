@@ -41,13 +41,13 @@ summary: "A role-based cooking platform that helps students discover budget-frie
 
 ## My contributions
 - Helped drive the design system. Built the shared component library, responsive layouts, and color tokens that keep student, vendor, and admin views visually consistent.
-- Created user hompe page, implemented vendor avialable ingredients shown on individual recipie page. 
+- Created user home page, implemented vendor available ingredients shown on individual recipe page. 
 - Set up CI/CD so every pull request runs lint/tests via GitHub Actions before Vercel deploys, keeping our main branch stable.
 
 ## What I learned
 - Balancing three role-based experiences requires solid permission modeling. Prisma’s schema and NextAuth callbacks now enforce that consistently.
 - Running usability testing alongside schema design prevented lots of time saved.
-- I learned a lot on how to work witha a team, mainly how important communication is to drive progress.
+- I learned a lot on how to work with a team, mainly how important communication is to drive progress.
 
 ## Impact
 Together we shipped a fully authenticated community cookbook tailored to UH students, complete with contribution workflows and vendor sourcing. The experience now greets members with personalized tips, curates top-rated dishes, and keeps vendors in sync so students can cook more and spend less.

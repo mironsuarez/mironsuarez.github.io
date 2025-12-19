@@ -29,4 +29,4 @@ Time Tracker grew out of my need to understand where my evenings were going. Alr
 - **Prisma + SQLite** when offline, with sync to PostgreSQL.
 
 
-Simple helpers like these keep the business logic readable while I focus on UX experiments, such as how to display overlapping timers or how to summarize a week without clutter. This timmer is now my go-to ritual check, and it has drastically improved how intentionally I spend my time.
+Simple helpers like these keep the business logic readable while I focus on UX experiments, such as how to display overlapping timers or how to summarize a week without clutter. This timer is now my go-to ritual check, and it has drastically improved how intentionally I spend my time.

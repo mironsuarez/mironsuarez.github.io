@@ -13,7 +13,7 @@ labels:
 
 
 ## UI frameworks accelerate good design
-Hand-coding raw HTML and CSS is valuable for fundamentals, but building every component from scratch quickly becomes a bottleneck. UI frameworks give us battle tested building blocks grid systems, buttons, and cards, that snap together with predictable class names. Instead of burning hours on spacing utilities or mobile breakpoints, I spend my energy on product ideas and accessibility. Responsive design comes with easy because the framework authors have already solved how layouts collapse on phones, tablets, and large monitors. The end result is faster iteration, fewer bugs, and a more consistent UX across the entire site.
+Hand-coding raw HTML and CSS is valuable for fundamentals, but building every component from scratch quickly becomes a bottleneck. UI frameworks give us battle-tested building blocks (grid systems, buttons, and cards) that snap together with predictable class names. Instead of burning hours on spacing utilities or mobile breakpoints, I spend my energy on product ideas and accessibility. Responsive design comes easily because the framework authors have already solved how layouts collapse on phones, tablets, and large monitors. The end result is faster iteration, fewer bugs, and a more consistent UX across the entire site.
 
 ## Why Bootstrap keeps showing up
 Bootstrap is still a default choice for many teams because it balances simplicity with flexibility. Originally built at Twitter, it has matured into a design system with excellent docs, an enormous component catalog, and Sass variables that let you theme it. The 12-column grid is a great design. I can define how many columns a section spans on large screens versus small ones with a single class (`col-lg-4 col-12`). Utility classes like `d-flex`, `gap-3`, or `text-center` reduce custom CSS, while the JavaScript bundle handles behaviors like collapsible navbars or carousels. More importantly, the community posts endless snippets, which means I rarely start from zero.
@@ -26,7 +26,7 @@ Working with Bootstrap changed the way I approach front-end work:
 - **Prototype faster.** Spinning up an idea with cards, badges, and navbars takes minutes, so stakeholders can react to something tangible.
 - **Design with constraints.** The grid and spacing utilities force me to think in consistent units, which produces cleaner visuals.
 - **Customize responsibly.** Variables and custom Sass let me inject brand colors or typography without fighting the framework.
-- **Accessibility matters.** Bootstrap’s components smake it simple and stright foward to use.
+- **Accessibility matters.** Bootstrap's components make it simple and straightforward to use.
 
 Here are two very different pages built on Bootstrap, proof that a framework doesn’t have to make everything look the same:
 

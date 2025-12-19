@@ -13,7 +13,7 @@ labels:
 
 # Reflecting on Software Engineering
 
-As I near the completion of ICS 314, I have come to realize that this course was not simply about learning how to build web applications, but about understanding software engineering as a discipline. While web development was the medium through which many assignments were delivered, the deeper goal was to expose students to core software engineering principles that apply across many domains and technologies. Through this course, my view of software development has become more structured, collaborative, and process-oriented. In this essay, I will reflect on three fundamental concepts I learned—Configuration Management, Agile Project Management, and Coding Standards and discuss how they extend far beyond web application development.
+As I near the completion of ICS 314, I have come to realize that this course was not simply about learning how to build web applications, but about understanding software engineering as a discipline. While web development was the medium through which many assignments were delivered, the deeper goal was to expose students to core software engineering principles that apply across many domains and technologies. Through this course, my view of software development has become more structured, collaborative, and process oriented. In this essay, I will reflect on three fundamental concepts I learned Configuration Management, Agile Project Management, and Coding Standards and discuss how they extend far beyond web application development.
 
 ---
 
@@ -51,7 +51,7 @@ Coding standards apply to all forms of software development, not just web applic
 
 Overall, ICS 314 changed how I think about software development. I now view it as a collaborative, structured process rather than just writing code to solve problems. One of the biggest surprises was how important planning and thoughtful structure are before writing significant amounts of code.
 
-The most valuable skill I gained from this course is problem-solving combined with the ability to quickly learn new technologies and tools. Software engineering is constantly evolving, and this course emphasized adaptability and continuous learning skills that will be critical throughout my career.
+The most valuable skill I gained from this course is problem solving combined with the ability to quickly learn new technologies and tools. Software engineering is constantly evolving, and this course emphasized adaptability and continuous learning skills that will be critical throughout my career.
 
 ---
 
