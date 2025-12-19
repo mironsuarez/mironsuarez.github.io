@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/image.jpg
+image: img/projects/timer/image.png
 title: "Time Tracker"
 date: 2023-11-15
 published: true
